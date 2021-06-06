@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"map_name": "Fluttering Salvage Expedition",
+	"map_path": "map_files/Engi",
+	"map_file": "Engi.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_kilo",
+		"emergency": "emergency_box"
+	}
+}
