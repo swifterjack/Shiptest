@@ -6,7 +6,11 @@
 	cost = 5
 
 // above ground only
-
+/datum/map_template/ruin/icemoon/slimerancher
+	name = "Slime Ranch"
+	id = "slimerancher"
+	description = "Slime ranchin with the bud."
+	suffix = "icemoon_surface_slimerancher.dmm"
 /datum/map_template/ruin/icemoon/lust
 	name = "Ruin of Lust"
 	id = "lust"
