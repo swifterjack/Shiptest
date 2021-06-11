@@ -770,6 +770,14 @@ update_label()
 
 /obj/item/card/id/away/deep_storage //deepstorage.dmm space ruin
 	name = "bunker access ID"
+/obj/item/card/id/away/slime //We're ranchin, baby!
+	name = "Slime Ranchers ID card"
+	desc = "One of two IDs you and your ranching partner were given when you bought the farm."
+	assignment = "Slime Rancher"
+	access = list(ACCESS_AWAY_GENERAL, ACCESS_XENOBIOLOGY)
+	registered_name = "Slime Rancher"
+	icon_state = "syndie"
+
 
 /obj/item/card/id/departmental_budget
 	name = "departmental card (FUCK)"

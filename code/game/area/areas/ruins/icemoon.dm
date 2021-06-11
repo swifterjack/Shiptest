@@ -17,3 +17,15 @@
 	base_icon_state = "block"
 	smoothing_flags = NONE
 	canSmoothWith = null
+/area/ruin/powered/slimerancher/house
+	name = "Slime Ranching Hovel"
+	icon_state = "dk_yellow"
+/area/ruin/powered/slimerancher/prison
+	name = "Slime Ranching Prison"
+	icon_state = "dk_yellow"
+/area/ruin/powered/slimerancher/maints
+	name = "Slime Ranching Maints"
+	icon_state = "dk_yellow"
+/area/ruin/powered/slimerancher/main_area
+	name = "Slime Ranching Biodome"
+	icon_state = "dk_yellow"
