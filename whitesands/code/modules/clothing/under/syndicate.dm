@@ -16,6 +16,24 @@
 	icon = 'whitesands/icons/obj/clothing/under/syndicate.dmi'
 	mob_overlay_icon = 'whitesands/icons/mob/clothing/under/syndicate.dmi'
 
+/obj/item/clothing/under/syndicate/cybersun_skirt
+	name = "Cybersun work jumpskirt"
+	desc = "A jumpskirt worn by employees of Cybersun working to create advanced robotics machinery."
+	icon_state = "cybersun_skirt"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 10, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 40)
+	alt_covers_chest = TRUE
+	icon = 'whitesands/icons/obj/clothing/under/syndicate.dmi'
+	mob_overlay_icon = 'whitesands/icons/mob/clothing/under/syndicate.dmi'
+	can_adjust = FALSE
+/obj/item/clothing/under/syndicate/cybersun_suit
+	name = "Cybersun work jumpsuit"
+	desc = "A jumpsuit worn by employees of Cybersun working to create advanced robotics machinery."
+	icon_state = "cybersun_suit"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 10, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 40)
+	alt_covers_chest = TRUE
+	icon = 'whitesands/icons/obj/clothing/under/syndicate.dmi'
+	mob_overlay_icon = 'whitesands/icons/mob/clothing/under/syndicate.dmi'
+	can_adjust = FALSE
 /datum/outfit/syndicate/intern
 	name = "Syndicate Operative - Intern"
 
