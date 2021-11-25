@@ -249,12 +249,17 @@ RLD
 
 /obj/item/construction/rcd/proc/toggle_window_type(mob/user)
 	var/window_type_name
-	if (window_type == /obj/structure/window/fulltile)
-		window_type = /obj/structure/window/reinforced/fulltile
-		window_type_name = "reinforced glass"
-	else
-		window_type = /obj/structure/window/fulltile
-		window_type_name = "glass"
+//	if (window_type == /obj/structure/window/fulltile)
+//		window_type = /obj/structure/window/reinforced/fulltile
+//		window_type_name = "reinforced glass"
+//	else
+//		window_type = /obj/structure/window/fulltile
+//		window_type_name = "glass"
+	switch(window_type)
+		if(/obj/structure/window/fulltile)
+			window_type_name = "glass"
+		if(/obj/structure/window/reinforced/fulltile)
+			window_type_name = "reinforced glass"
 
 	to_chat(user, "<span class='notice'>You change \the [src]'s window mode to [window_type_name].</span>")
 
