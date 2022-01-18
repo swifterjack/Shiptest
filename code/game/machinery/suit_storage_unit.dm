@@ -106,7 +106,10 @@
 	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi
 	mask_type = /obj/item/clothing/mask/gas/syndicate
 	storage_type = /obj/item/tank/jetpack/oxygen/harness
-
+//shiptest
+/obj/machinery/suit_storage_unit/syndicate/civilian
+	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi/civilian
+//shipteste
 /obj/machinery/suit_storage_unit/ert/command
 	suit_type = /obj/item/clothing/suit/space/hardsuit/ert
 	mask_type = /obj/item/clothing/mask/breath

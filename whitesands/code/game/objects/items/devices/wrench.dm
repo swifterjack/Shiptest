@@ -15,3 +15,8 @@
 	icon_state = "wrench"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
+//shiptesting across the universe
+/obj/item/wrench/syndie/civilian
+	name = "syndicate wrench"
+	desc = "A standard edition Donk! Co. wrench, easily found in your hand."
+	toolspeed = 1

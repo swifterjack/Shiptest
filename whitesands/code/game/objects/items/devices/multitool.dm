@@ -9,3 +9,8 @@
 	icon = 'icons/obj/device.dmi'
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
+//shiptest
+/obj/item/multitool/syndie/civilian
+	name = "syndicate multitool"
+	desc = "A standard edition Donk! Co. multitool. Great for any aspiring hackers."
+	toolspeed = 1

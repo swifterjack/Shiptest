@@ -91,7 +91,11 @@
 	item_state = "screwdriver_nuke"
 	toolspeed = 0.5
 	random_color = FALSE
-
+//shiptest
+/obj/item/screwdriver/nuke/civilian
+	name = "syndicate screwdriver"
+	desc = "A standard edition Donk! Co. screwdriver, perfect for any situation."
+	toolspeed = 1
 /obj/item/paper/guides/antag/nuke_instructions
 	info = "How to break into a Nanotrasen self-destruct terminal and remove its plutonium core:<br>\
 	<ul>\

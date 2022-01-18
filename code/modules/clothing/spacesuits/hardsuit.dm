@@ -324,7 +324,14 @@
 	actions_types = list(/datum/action/item_action/toggle_helmet_mode)
 	visor_flags_inv = HIDEMASK|HIDEEYES|HIDEFACE|HIDEFACIALHAIR
 	visor_flags = STOPSPRESSUREDAMAGE
+//shiptest
+/obj/item/clothing/head/helmet/space/hardsuit/syndi/civilian
+	name = "scarlet hardsuit helmet"
+	desc = "A dual mode helmet designed for portability in tough situations, this one seems to be a mass produced civilian model of the infamous one used by operatives. It is in EVA mode. Made by Donk!"
+	alt_desc = "A dual mode helmet designed for portability in tough situations, this one seems to be a mass produced civilian model of the infamous one used by operatives. It is in operations mode. Made by Donk!"
+	armor = list("melee" = 35, "bullet" = 30, "laser" = 20, "energy" = 30, "bomb" = 40, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
 
+//end shiptest
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/update_icon_state()
 	icon_state = "hardsuit[on]-[hardsuit_type]"
 
@@ -388,7 +395,7 @@
 		user.update_inv_w_uniform()
 		user.update_equipment_speed_mods()
 
-
+//shiptest (this is a sin but i do not know how to fix this, and god will smite me for it.)
 /obj/item/clothing/suit/space/hardsuit/syndi
 	name = "blood-red hardsuit"
 	desc = "A dual-mode advanced hardsuit designed for work in special operations. It is in EVA mode. Property of Gorlex Marauders."
@@ -401,7 +408,14 @@
 	allowed = list(/obj/item/gun, /obj/item/ammo_box,/obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi
 	jetpack = /obj/item/tank/jetpack/suit
-
+//shiptest
+/obj/item/clothing/suit/space/hardsuit/syndi/civilian
+	name = "scarlet hardsuit"
+	desc = "A dual mode hardsuit designed for portability in tough situations, this one seems to be a mass produced civilian model of the infamous one used by operatives. It is in EVA mode. Made by Donk!"
+	alt_desc = "A dual mode hardsuit designed for portability in tough situations, this one seems to be a mass produced civilian model of the infamous one used by operatives. It is in operations mode. Made by Donk!"
+	armor = list("melee" = 35, "bullet" = 30, "laser" = 20, "energy" = 30, "bomb" = 40, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/civilian
+//ending the test
 //Elite Syndie suit
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
 	name = "elite syndicate hardsuit helmet"

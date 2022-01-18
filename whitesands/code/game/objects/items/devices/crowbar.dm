@@ -8,3 +8,9 @@
 /obj/item/crowbar/old
 	desc = "A small crowbar. This handy tool is useful for lots of things, such as prying floor tiles or opening unpowered doors. This one seems to be covered in dust."
 	icon = 'icons/obj/tools.dmi'
+
+//shiptesting, baby!
+/obj/item/crowbar/syndie/civilian
+	name = "syndicate crowbar"
+	desc = "A standard edition Donk! Co. crowbar, it's useful for many things, like prying floor tiles or opening unpowered doors."
+	toolspeed = 1

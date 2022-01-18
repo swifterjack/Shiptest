@@ -115,13 +115,13 @@
 	new /obj/item/extinguisher/mini(src)
 
 /obj/item/storage/belt/utility/syndicate/PopulateContents()
-	new /obj/item/screwdriver/nuke(src)
-	new /obj/item/wrench/combat(src)
+	new /obj/item/screwdriver/nuke/civilian(src)
+	new /obj/item/wrench/syndie/civilian(src)
 	new /obj/item/weldingtool/largetank(src)
-	new /obj/item/crowbar/syndie(src)
-	new /obj/item/wirecutters/syndie(src)
-	new /obj/item/multitool/syndie(src)
-	new /obj/item/inducer/syndicate(src)
+	new /obj/item/crowbar/syndie/civilian(src)
+	new /obj/item/wirecutters/syndie/civilian(src)
+	new /obj/item/multitool/syndie/civilian(src)
+	new /obj/item/stack/cable_coil(src,MAXCOIL,pick("red","yellow","orange"))
 
 /obj/item/storage/belt/medical
 	name = "medical belt"

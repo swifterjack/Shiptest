@@ -8,3 +8,8 @@
 /obj/item/wirecutters/old
 	desc = "This cuts wires. It also appears to be slightly rusty..."
 	icon = 'icons/obj/tools.dmi'
+//shiptest
+/obj/item/wirecutters/syndie/civilian
+	name = "syndicate wirecutters"
+	desc = "A standard edition Donk! Co. set of wirecutters, it cuts wires. What did you expect?"
+	toolspeed = 1
