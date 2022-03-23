@@ -5,8 +5,8 @@
 	"map_path": "_maps/shuttles/shiptest/syndicate_cosmos.dmm",
 	"map_id": "cosmos",
 	"job_slots": {
-		"Admiral": {
-			"outfit": "/datum/outfit/job/captain/aclf",
+		"Commander": {
+			"outfit": "/datum/outfit/job/captain/syndicate",
 			"officer": true,
 			"slots": 1
 		},
@@ -24,7 +24,7 @@
 			"outfit": "/datum/outfit/job/engineer/gec",
 			"slots": 2
 		},
-		"Union Firefighter": {
+		"Union Life Support Specialist": {
 			"outfit": "/datum/outfit/job/atmos/gec",
 			"slots": 1
 		},

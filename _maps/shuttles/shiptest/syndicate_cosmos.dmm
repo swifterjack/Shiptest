@@ -2209,15 +2209,6 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "mI" = (
-/obj/item/ammo_box/c9mm,
-/obj/item/ammo_box/c9mm{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/ammo_box/c9mm{
-	pixel_x = -4;
-	pixel_y = -4
-	},
 /obj/item/ammo_box/c38_box/hunting{
 	pixel_x = 2;
 	pixel_y = 2
@@ -2225,13 +2216,6 @@
 /obj/item/ammo_box/c38_box/hunting{
 	pixel_x = -2;
 	pixel_y = -2
-	},
-/obj/item/ammo_box/c9mm/rubbershot,
-/obj/item/ammo_box/c9mm/rubbershot{
-	pixel_y = -5
-	},
-/obj/item/ammo_box/c9mm/rubbershot{
-	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/ammo_box/c38_box/hunting{
@@ -2242,6 +2226,12 @@
 	icon_state = "syndicate";
 	name = "ammo locker"
 	},
+/obj/item/ammo_box/c10mm/rubbershot,
+/obj/item/ammo_box/c10mm/rubbershot,
+/obj/item/ammo_box/c10mm/rubbershot,
+/obj/item/ammo_box/c10mm,
+/obj/item/ammo_box/c10mm,
+/obj/item/ammo_box/c10mm,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "mJ" = (
@@ -2508,10 +2498,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
 /obj/structure/closet/crate/critter{
-	desc = "A crate containing an emergency drone, for when you need emergency repairs.";
-	name = "emergency drone storage"
+	desc = "A crate containing an emergency gator, for gator emergencies.";
+	name = "emergency gator storage"
 	},
-/obj/effect/mob_spawn/drone/snowflake,
+/mob/living/simple_animal/hostile/retaliate/gator/steppy{
+	desc = "An emergency gator for gator emergencies.";
+	name = "Emergency gator"
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "oa" = (
@@ -5795,6 +5788,9 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "HK" = (
@@ -7002,6 +6998,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo/office)
 "Pq" = (
@@ -7143,7 +7142,6 @@
 /obj/item/clothing/suit/toggle/labcoat/cmo,
 /obj/item/clothing/neck/cloak/cmo,
 /obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/defibrillator/compact/combat,
 /obj/item/clothing/head/HoS/beret/syndicate,
 /obj/item/clothing/mask/surgical,
 /obj/item/clothing/mask/gas/syndicate,
@@ -7159,6 +7157,7 @@
 	dir = 8
 	},
 /obj/item/clothing/head/HoS/beret/syndicate,
+/obj/item/defibrillator/compact/combat/loaded,
 /turf/open/floor/wood/yew,
 /area/ship/bridge)
 "Qc" = (
@@ -7482,31 +7481,6 @@
 /obj/machinery/vending/medical/syndicate_access,
 /turf/open/floor/plasteel/white,
 /area/ship/medical/surgery)
-"RH" = (
-/obj/effect/turf_decal/corner/bottlegreen{
-	dir = 10
-	},
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/obj/structure/closet/secure_closet{
-	icon_state = "med_secure";
-	name = "student's locker"
-	},
-/obj/item/radio/headset/syndicate/alt,
-/obj/item/storage/belt/medical,
-/obj/item/encryptionkey/headset_med,
-/obj/item/clothing/gloves/color/latex/nitrile,
-/obj/item/clothing/suit/hooded/wintercoat/medical,
-/obj/machinery/door/window/survival_pod{
-	dir = 1
-	},
-/obj/item/pinpointer/crew,
-/obj/item/storage/firstaid/toxin,
-/obj/item/storage/firstaid/o2,
-/obj/item/roller,
-/turf/open/floor/plasteel/white,
-/area/template_noop)
 "RK" = (
 /obj/structure/rack,
 /obj/machinery/light/small,
@@ -8926,7 +8900,7 @@ Ze
 Ze
 Ze
 Ze
-RH
+Ze
 Ze
 Ze
 Ze
@@ -9398,7 +9372,7 @@ uc
 Ha
 PJ
 oQ
-oQ
+gf
 Ze
 Ze
 "}
@@ -9619,7 +9593,7 @@ Pe
 mO
 mw
 oQ
-oQ
+gf
 Ze
 "}
 (16,1,1) = {"
@@ -9949,7 +9923,7 @@ yP
 Ua
 Qi
 oQ
-oQ
+gf
 Ze
 "}
 (22,1,1) = {"
@@ -10168,7 +10142,7 @@ AJ
 Rw
 hX
 oQ
-oQ
+gf
 Ze
 Ze
 "}
